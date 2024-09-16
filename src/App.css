@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background: #ffd5d5;
+}
+.main-div{
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.my-input{
+  background: #ffffff;
+  height: 35px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  margin: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(114, 121, 129, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.my-input:hover{
+  background: #fff4f4;
+}
+.mybtn{
+  font-weight: 600;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  background: #d8d8d8;
+  cursor: pointer;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.mybtn:hover{
+  background:  #fff4f4;
+}
+.mid-div{
+  display: flex;
+  justify-content: space-evenly;
+  background: #ebcccc;
+  align-items: center;
+
+}
+.mybtn1{
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background:  #ffd5d5;
+  cursor: pointer;
+  height: 40px;
+}
+.main-div01{
+  width: 400px;
+  height: max-content;
+  background: rgb(202, 143, 128);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  color: #0a0606;
+}
