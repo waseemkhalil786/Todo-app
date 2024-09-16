@@ -33,16 +33,7 @@ function App() {
     },
     [todos]
   );
-  const handleOnToggleTodo = useCallback(
-    (id) => {
-      console.log("Clicking todo", id);
-      const todosArr = [...todos];
-      const todoInd = todosArr.findIndex((data) => data.id == id);
-      todosArr[todoInd].completed = !todosArr[todoInd].completed;
-      setTodo([...todosArr]);
-    },
-    [todos]
-  );
+
 
   return (
     <div>
@@ -53,7 +44,6 @@ function App() {
         onClick={handleAddTodo}
       />
       <TodoList
-        toggleTodo={handleOnToggleTodo}
         todos={todos}
         onDelete={handleOnDelete}
       />

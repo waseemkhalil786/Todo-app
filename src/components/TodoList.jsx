@@ -7,11 +7,14 @@ function TodoList({ todos, onDelete, toggleTodo }) {
         return (
           <div key={todo.id} className="main-div01">
             <h3
-              onClick={() => toggleTodo(todo.id)}
               style={{
-                textDecoration: todo.completed && "line-through",
-                color: todo.completed && "black",
-                background: todo.completed && "white",
+                background:"white",
+                height:'30px',
+                textAlign:"center",
+                borderRadius:'5px',
+                display:'flex',
+                alignItems:'center',
+                padding:'5px'
               }}
             >
               {todo.todo}
@@ -21,7 +24,7 @@ function TodoList({ todos, onDelete, toggleTodo }) {
             </button>
           </div>
         );
-      })};
+      })}
     </div>
   );
 }

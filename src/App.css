@@ -1,4 +1,4 @@
-#root {
+  #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -60,19 +60,19 @@ body{
   font-size: 20px;
   border: none;
   border-radius: 5px;
-  background:  #ffd5d5;
+  background:  #ff2020;
   cursor: pointer;
   height: 40px;
 }
 .main-div01{
-  width: 400px;
+  width: 450px;
   height: max-content;
-  background: rgb(202, 143, 128);
+  background: rgb(255, 176, 157);
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
   padding: 5px;
-  margin: 20px;
+  margin: 10px;
   color: #0a0606;
 }
